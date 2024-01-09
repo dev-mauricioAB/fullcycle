@@ -1,0 +1,136 @@
+/* Reset de estilos padrão do navegador */
+body {
+    margin: 0;
+    font-family: Cabin, 'Helvetica Neue', sans-serif;
+}
+
+p {
+    line-height: 29px;
+}
+
+h1,
+h2,
+p,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos da classe .email-template-card */
+.email-template-card {
+    height: 770px;
+    max-width: 680px;
+    padding: 1rem 2.5rem;
+    background-color: #F4F7FF;
+}
+
+/* Estilos da classe .mat-card-title */
+.mat-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.mat-card-title img {
+    margin-right: 0.5rem;
+}
+
+.mat-card-title span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Estilos da classe .mat-card-content */
+.mat-card-content {
+    border: solid 1px #007ACC;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 1rem;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-content h2 {
+    margin-bottom: 13px;
+}
+
+.title-content .red-font {
+    text-transform: uppercase;
+    color: #ba000c;
+}
+
+/* Estilos da classe .text-blue */
+.text-blue {
+    color: #007ACC;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos da classe .warning-list */
+.warning-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning-list div {
+    margin: 0.5rem 0;
+}
+
+.warning-list span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.warning-list .left-span {
+    color: #202124;
+}
+
+.warning-list .right-span {
+    color: #ba000c;
+}
+
+/* Estilos da classe .text-gray */
+.text-gray {
+    color: #545454;
+    margin-top: 1rem;
+}
+
+/* Estilos da classe .email-template-footer */
+.email-template-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-template-footer img {
+    margin-right: 1rem;
+}
+
+.email-template-footer span {
+    max-width: 21rem;
+    color: #9ca0a8;
+}
+
+.email-template-footer .email-contact-color {
+    color: #0a0c17;
+}
+
+.horizontal-line {
+    border-top: 1px solid #C0C4CC;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* Media query for mobile devices (portrait and landscape) */
+@media only screen and (max-width: 599px) {
+    .email-template-card {
+        height: 90vh;
+        padding: 0;
+    }
+}
